@@ -19,7 +19,7 @@ int main(){
   }
 
   printf("New value after incrementing : %u\n", a);
-  printf("New Hexidecimal after incremeting : %hhx \n",a);
+  printf("New Hexidecimal after incremeting : %x \n",a);
 
   a = 235343450;
   b = &a;
@@ -29,6 +29,7 @@ int main(){
   }
   
   printf("New value after incrementing : %u\n", a);
-  printf("New Hexidecimal after incremeting : %hhx \n",a);
+  printf("New Hexidecimal after incremeting : %x \n",a);
+  return 0;
 }
     
